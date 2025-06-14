@@ -1,0 +1,59 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Environment variables and secrets
+*.env
+secrets.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Mac and Windows system files
+.DS_Store
+Thumbs.db
+
+# VS Code and PyCharm settings
+.vscode/
+.idea/
+
+# Logs and local test data
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Streamlit cache and generated files
+.streamlit/
+.cache/
+*.pyc
+*.pyo
+
+# PDF/image output or results
+output/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Test uploads or processed user files
+uploads/
+processed/
+
+# Tesseract or OCR-specific temp files
+*.traineddata
+tessdata/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+🔐 Notes:
+If y
