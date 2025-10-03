@@ -43,6 +43,10 @@ output/
 *.jpeg
 *.pdf
 
+# But keep the ones inside /images folder
+!images/*.png
+!images/*.jpg
+
 # Test uploads or processed user files
 uploads/
 processed/
