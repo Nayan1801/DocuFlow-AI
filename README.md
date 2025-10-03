@@ -25,6 +25,42 @@
 
 ---
 
+## 🖼️ Screenshots & Demo
+
+### 🔹 App Home  
+<img src="images/img1.png" width="700">
+
+---
+
+### 🔹 Image Upload + OCR + Q&A  
+<img src="images/img2.png" width="700">
+
+<img src="images/img3.png" width="700">
+
+<img src="images/img4.png" width="700">
+
+---
+
+### 🔹 Word Document Upload + Q&A  
+<img src="images/img5.png" width="700">
+
+---
+
+### 🔹 PDF Upload + Q&A  
+<img src="images/img6.png" width="700">
+
+
+---
+
+### 🔹 CSV Upload + Analysis + Q&A  
+<img src="images/img7.png" width="700">
+
+<img src="images/img8.png" width="700">
+
+<img src="images/img9.png" width="700">
+
+---
+
 ## 🎯 Use Case Examples
 
 📝 Upload a CSV sales report and ask:

@@ -194,7 +194,7 @@ elif page == "About Us":
 
     ---
 
-    ###  Our Vision
+    ###  Vision
 
     We believe the future of work is **autonomous, smart, and fast**. Our mission is to eliminate repetitive manual tasks and unlock your team’s true potential by letting AI handle the heavy lifting.
 
@@ -208,7 +208,13 @@ elif page == "About Us":
     - ✨ **Modular & Scalable**: Plug in your own agents and customize flows.
     - ✨ **Secure by Design**: Enterprise-ready and audit-compliant.
     - ✨ **Explainable AI**: We don’t do black boxes. Understand every decision made.
+    
+    ### 🎯 My Vision
 
+    I want to make document workflows **simpler, smarter, and faster**.  
+    This project is also a step in my journey toward becoming a **Machine Learning Engineer** who builds real-world AI systems that empower businesses.
+
+    If you're an organization or developer interested in automation, I’d love to collaborate, improve, and scale this idea further.
     ---
 
     **Transform the way you manage documents—join the flow with DocuFlow AI.**
@@ -220,5 +226,7 @@ elif page == "Contact Us":
 
     - 🔗 GitHub Repository: [https://github.com/Nayan1801/DocuFlow-AI](https://github.com/Nayan1801/DocuFlow-AI)
     - 📧 Email: [nayankathait@gmail.com](mailto:nayankathait@gmail.com)
-    - 🌐 Website (coming soon): [www.docuflow.ai](http://www.docuflow.ai) *(placeholder)*
+    - 💼 **LinkedIn**: [https://www.linkedin.com/in/nayan-kathait-6889932b8/](https://www.linkedin.com/in/nayan-kathait-6889932b8/)
+    
+    ✨ I’m always open to collaboration, feedback, and opportunities in **AI/ML, Data Science, and Software Development**.  
     """)
