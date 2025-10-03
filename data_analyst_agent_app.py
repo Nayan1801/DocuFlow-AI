@@ -10,10 +10,10 @@ import docx
 import os
 from together import Together
 
-# Initialize Together API key
-TOGETHER_API_KEY = st.secrets.get("TOGETHER_API_KEY") or os.getenv("TOGETHER_API_KEY")
+# Initialize Together API key from environment variable
+TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
 if not TOGETHER_API_KEY:
-    TOGETHER_API_KEY = st.text_input("🔑 Enter Together API Key", type="password")
+    st.warning("⚠️ Together API key not found. Please set the environment variable TOGETHER_API_KEY.")
 client = Together(api_key=TOGETHER_API_KEY) if TOGETHER_API_KEY else None
 
 def ask_llama(prompt, max_tokens=512):
@@ -97,9 +97,7 @@ def answer_question_about_text(content, question):
     prompt = f"""
 You are a document analysis agent.
 Document:
-\"\"\"
-{content[:3000]}
-\"\"\"
+\"\"\"{content[:3000]}\"\"\"
 Question: {question}
 Answer:
 """
